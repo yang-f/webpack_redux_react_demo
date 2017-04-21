@@ -1,0 +1,109 @@
+// reset styles
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+// reset margin, padding and box-sizing
+html, body, div, section, article, header, footer, caption, menu, h1, h2, h3, h4, h5, h6, blockquote, hr, figure, // structure elements
+dl, dt, dd, ul, ol, li, // list elements
+pre, a, p, // text elements
+table, th, td, tbody, tfoot, thead, // table elements
+form, fieldset, legend, input, button, textarea, // form elements
+label, span, i, small, b, strong {
+  //inline elements
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+// set default font
+body {
+  font: 63% Arial, Verdana, PingHei, 'Microsoft YaHei', Helvetica Neue, Helvetica, STHeitiSC-Light, sans-serif;
+}
+
+button, input, select, textarea {
+  font: 1.2em Arial, Verdana, PingHei, 'Microsoft YaHei', Helvetica Neue, Helvetica, STHeitiSC-Light, sans-serif;
+  &:focus {
+	outline: 0;
+  }
+}
+
+address, cite, dfn, em, var, i {
+  font-style: normal;
+}
+
+b, strong {
+  font-weight: bold;
+}
+
+// reset text elements
+a {
+  background-color: transparent;
+  text-decoration: none;
+  &:hover, &:active, &:focus {
+	outline: 0;
+  }
+}
+
+abbr[title], acronym[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+// reset list elements
+ul, ol, li {
+  list-style: none;
+}
+
+// reset form elements
+legend {
+  color: #000;
+  border: 0; // 1
+  padding: 0; // 2
+}
+
+fieldset, img {
+  border: none;
+}
+
+button, input, select, textarea {
+  font-size: 100%;
+  background: none;
+  border: none;
+}
+
+// reset table elements
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+// compatible browsers
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+  box-sizing: border-box;
+}
+
+audio, canvas, progress, video {
+  display: inline-block;
+  vertical-align: baseline;
+  color: #000;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+[hidden], template {
+  display: none;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+.on{
+  display: block;
+}
