@@ -6,6 +6,9 @@ import $ from 'jquery';
 import Pic from './pic.js';
 import React from "react";
 import Nav from './nav.js';
+import RaisedButton from 'material-ui/RaisedButton';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import AppBar from 'material-ui/AppBar';
 import {
 	browserHistory,
 	Router,
@@ -22,6 +25,12 @@ let Route1 = React.createClass({
 			<div>
                 <div id="nav"><Nav /></div>
                 <div className="statisics">
+                	<MuiThemeProvider>
+                		<AppBar
+							title="Title"
+							iconClassNameRight="muidocs-icon-navigation-expand-more"
+						/>
+                	</MuiThemeProvider>
                     this is r1!
                 </div>
             </div>
