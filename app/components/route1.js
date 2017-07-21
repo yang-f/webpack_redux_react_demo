@@ -23,16 +23,13 @@ let Route1 = React.createClass({
 	render() {
 		return (
 			<div>
-                <div id="nav"><Nav /></div>
-                <div className="statisics">
-                	<MuiThemeProvider>
-                		<AppBar
-							title="Title"
-							iconClassNameRight="muidocs-icon-navigation-expand-more"
-						/>
-                	</MuiThemeProvider>
-                    this is r1!
-                </div>
+            	<MuiThemeProvider>
+            		<AppBar
+						title="Title"
+						iconClassNameRight="muidocs-icon-navigation-expand-more"
+					/>
+            	</MuiThemeProvider>
+                this is r1!
             </div>
 		)
 	}

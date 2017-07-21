@@ -67,7 +67,6 @@ let Lives = React.createClass({
         var LiveDetailPanel = "creat_item_box " + itemDetailPanelClass;
         return (
             <div>
-                <Nav />
                 <div className="add_item_container">
                     <ul>
                         <li>
